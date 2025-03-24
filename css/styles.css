@@ -1,0 +1,31 @@
+.web {
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    text-decoration:none;
+}
+.studio {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.menu .link {
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    font-height: 24px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.menu .link:hover {
+    color: #404bbf;
+    text-decoration: none;
+}
+.menu .link:active {
+    color: #4d5ae5;
+    text-decoration: underline;
+}
