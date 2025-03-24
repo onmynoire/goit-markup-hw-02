@@ -1,10 +1,63 @@
+
+body {
+    font-family: "Roboto";
+    font-weight; 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+a {
+    text-decoration: none;
+    color: #434455;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #2e2f42;
+}
+address {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    color: #2e2f42;
+}
+
+
+header {
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+}
+
+
+footer {
+    background-color: #2e2f42;
+    }
+
+.text-bottom {
+    color: #f4f4fd;
+    margin-top: 16px;
+}
+
 .web {
     color: #4d5ae5;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-    text-decoration:none;
+    letter-spacing: 3%;
+    line-height: 21px;
 }
 .studio {
     color: #2e2f42;
@@ -12,6 +65,28 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 21px;
+}
+
+.web2 {
+    color: #4d5ae5;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 3%;
+    line-height: 21px;
+}
+
+.studio2 {
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 3%;
+    line-height: 21px;
 }
 
 .menu .link {
@@ -28,4 +103,35 @@
 .menu .link:active {
     color: #4d5ae5;
     text-decoration: underline;
+}
+h1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+    
+}
+.main-title {
+    background-color: #2e2f42;
+    color: #ffffff;
+    text-align:center;
+    padding-top: 188px;
+    padding-bottom: 292px;
+    padding-left: 472px;
+    padding-right: 472px;
+}
+
+button {
+    font-family: "Roboto";
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #ffffff;
+    background: #4d5ae5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
