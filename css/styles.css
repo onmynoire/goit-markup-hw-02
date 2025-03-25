@@ -9,9 +9,7 @@ body {
     background-color: #ffffff;
 }
 
-li, ul,
-.link, .logo-top, 
-.mail, .tel {
+li, ul, a {
     list-style-type: none;
     text-decoration: none;
 }
@@ -23,7 +21,7 @@ li, ul,
     letter-spacing: 3%;
     text-transform: uppercase;
     line-height: 1.17;
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .logo-top {
@@ -33,7 +31,7 @@ li, ul,
     letter-spacing: 3%;
     text-transform: uppercase;
     line-height: 1.17;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .link {
@@ -94,7 +92,6 @@ text-align: center;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 2%;
-    text-transform: capitalize;
     color: #2e2f42;
 }
 
@@ -111,6 +108,8 @@ text-align: center;
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 2%;
+    text-align: center;
+    line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #f4f4fd;
@@ -123,4 +122,49 @@ text-align: center;
     letter-spacing: 2%;
     color: #2e2f42;
     background-color: #ffffff;
+}
+
+.portfolio {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    text-align: center;
+    line-height: 1.11;
+    text-transform: capitalize;
+    color: #2e2f42;
+    background-color: #ffffff;
+}
+
+.logo-bottom {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3%;
+    text-transform: uppercase;
+    line-height: 1.17;
+    color: #4d5ae5;
+}
+
+.bottom {
+    background-color: #2e2f42;
+}
+
+.studio2 {
+    font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        letter-spacing: 3%;
+        text-transform: uppercase;
+        line-height: 1.17;
+        color: #f4f4fd;
+}
+
+.text-bottom {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #f4f4fd;
 }
