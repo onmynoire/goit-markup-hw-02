@@ -43,7 +43,7 @@ li, ul, a {
     color: #2e2f42;
 }
 
-.link:hover {
+.link:hover, .link:focus {
     color: #404bbf;
     
 }
@@ -85,7 +85,7 @@ address, .mail, .tel {
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
-line-height: 1.5px;
+line-height: 1.5;
 letter-spacing: 0.04em;
 color: #ffffff;
 background-color: #4d5ae5;
@@ -117,11 +117,9 @@ text-align: center;
 .team-section {
     background-color: #f4f4fd;
 }
-
-.img-team {
+.team-list {
     background-color: #ffffff;
 }
-
 .team {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
