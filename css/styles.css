@@ -87,6 +87,11 @@ background-color: #4d5ae5;
 text-align: center;
 }
 
+.button:hover, .button:focus {
+    background-color: #404bbf;
+    cursor: pointer;
+}
+
 .values {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -99,8 +104,12 @@ text-align: center;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+}
+.team-section {
+    background-color: #f4f4fd;
 }
 
 .team {
@@ -112,13 +121,13 @@ text-align: center;
     line-height: 1.11;
     text-transform: capitalize;
     color: #2e2f42;
-    background-color: #f4f4fd;
 }
 
 .team-names {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     background-color: #ffffff;
