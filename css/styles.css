@@ -6,6 +6,8 @@ body {
     line-height: 24px;
     letter-spacing: 2%;
 }
+
+        
 a {
     text-decoration: none;
     color: #434455;
@@ -30,16 +32,12 @@ address {
 }
 
 
-header {
-    
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
+header, .menu, ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
-
 
 footer {
     background-color: #2e2f42;
@@ -58,6 +56,8 @@ footer {
     font-family: "Raleway", sans-serif;
     letter-spacing: 3%;
     line-height: 21px;
+    padding-left: 156px;
+    
 }
 .studio {
     color: #2e2f42;
@@ -67,6 +67,7 @@ footer {
     font-size: 18px;
     letter-spacing: 3%;
     line-height: 21px;
+    padding-right: 76px;
 }
 
 .web2 {
@@ -89,12 +90,21 @@ footer {
     line-height: 21px;
 }
 
+.tel  {
+padding-right: 156px;
+padding-left: 40px;
+}
+
+.contacts, .mail:hover, .tel:hover {
+color: #404bbf;
+}
 .menu .link {
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
     font-height: 24px;
     font-weight: bold;
     font-size: 18px;
+    padding-right: 40px;
 }
 .menu .link:hover {
     color: #404bbf;
@@ -124,7 +134,7 @@ h1 {
 
 button {
     font-family: "Roboto";
-    font-weight: medium;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 4%;
@@ -134,4 +144,19 @@ button {
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
+}
+
+button:hover {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: #ffffff;
+    background: #404bbf;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    
 }
