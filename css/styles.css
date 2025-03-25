@@ -42,7 +42,7 @@ li, ul, a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.link:hover {
+address, .link:hover {
     color: #404bbf;
 }
 
@@ -150,7 +150,7 @@ text-align: center;
     background-color: #2e2f42;
 }
 
-.studio2 {
+.studio-bottom {
     font-family: "Raleway", sans-serif;
         font-weight: 700;
         font-size: 18px;
