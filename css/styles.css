@@ -53,7 +53,7 @@ li, ul, a {
     text-decoration: underline;
 }
 
-address, .mail, .tel {
+a, .address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -63,8 +63,14 @@ address, .mail, .tel {
     color: #434455;
 }
 
-.mail:hover, .tel:hover,
-.mail:focus, .tel:focus {
+a, .address:hover,
+.address:focus {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-style: normal;
     color: #404bbf;
 }
 
