@@ -42,11 +42,13 @@ li, ul, a {
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-address, .link:hover {
+
+.link:hover {
     color: #404bbf;
+    
 }
 
-.link:focus {
+.link:active {
     color: #404bbf;
     text-decoration: underline;
 }
@@ -61,10 +63,14 @@ address, .mail, .tel {
     color: #434455;
 }
 
-.mail:hover, .tel:hover {
+.mail:hover, .tel:hover,
+.mail:focus, .tel:focus {
     color: #404bbf;
 }
 
+.main {
+    background-color: #2e2f42;
+}
 .main-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -72,7 +78,6 @@ address, .mail, .tel {
     line-height: 1.07;
     letter-spacing: 0.02em;
     color: #ffffff;
-    background-color: #2e2f42;
     text-align: center;
 }
 
@@ -108,8 +113,13 @@ text-align: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+
 .team-section {
     background-color: #f4f4fd;
+}
+
+.img-team {
+    background-color: #ffffff;
 }
 
 .team {
@@ -130,7 +140,6 @@ text-align: center;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    background-color: #ffffff;
 }
 
 .portfolio {
