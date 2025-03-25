@@ -53,7 +53,7 @@ li, ul, a {
     text-decoration: underline;
 }
 
-a, .address {
+.contacts, .address {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -63,7 +63,7 @@ a, .address {
     color: #434455;
 }
 
-a, .address:hover,
+.contacts, .address:hover,
 .address:focus {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
