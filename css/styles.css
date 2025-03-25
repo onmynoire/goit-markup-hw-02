@@ -3,7 +3,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight; 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 2%;
     color: #434455;
     background-color: #ffffff;
@@ -22,6 +22,7 @@ li, ul,
     font-size: 18px;
     letter-spacing: 3%;
     text-transform: uppercase;
+    line-height: 1.17;
     color: #4d5ae5;
 }
 
@@ -31,15 +32,95 @@ li, ul,
     font-size: 18px;
     letter-spacing: 3%;
     text-transform: uppercase;
+    line-height: 1.17;
     color: #2e2f42;
 }
 
-h1 {
+.link {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: #2e2f42;
+}
+.link:hover {
+    color: #404bbf;
+}
+
+.link:focus {
+    color: #404bbf;
+    text-decoration: underline;
+}
+
+address, .mail, .tel {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    font-style: normal;
+    color: #434455;
+}
+
+.mail:hover, .tel:hover {
+    color: #404bbf;
+}
+
+.main-title {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     letter-spacing: 2%;
     color: #ffffff;
+    background-color: #2e2f42;
     text-align: center;
+}
+
+.button {
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+letter-spacing: 4%;
+color: #ffffff;
+background-color: #4d5ae5;
+text-align: center;
+}
+
+.values {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.values-names {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2e2f42;
+}
+
+.team {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+    color: #2e2f42;
+    background-color: #f4f4fd;
+}
+
+.team-names {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2%;
+    color: #2e2f42;
+    background-color: #ffffff;
 }
